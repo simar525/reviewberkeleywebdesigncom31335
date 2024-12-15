@@ -1,8 +1,11 @@
 {
+  "redirects": [{"source": "/en",       "destination": "/kiosk/berkeleyweb",       "permanent": true     }
+],
   "rewrites": [
     {
       "source": "/(.*)",
       "destination": "https://app.kissreviews.com/$1"
- }
+    }
   ]
 }
+    
